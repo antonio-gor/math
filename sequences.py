@@ -17,9 +17,9 @@ def plot(fn, start, stop):
 
 #### Sequences ####
 
-def fly_straight_dammit(start=0, stop=10):
+def fly_straight_dammit(start=0, stop=1000):
     """ http://oeis.org/A133058 """
-    
+
     def calculate(n, range_n_minus_1):
         if gcd(n, range_n_minus_1) == 1:
             return range_n_minus_1 + n + 1
