@@ -25,7 +25,7 @@ def fly_straight_dammit(start=0, stop=1000):
             return range_n_minus_1 + n + 1
         else:
             return int(range_n_minus_1 / gcd(n, range_n_minus_1))
-    
+
     range = np.array([1, 1])
     n = 2
     while n <= stop:
